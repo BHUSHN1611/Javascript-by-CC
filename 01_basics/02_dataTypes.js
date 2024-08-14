@@ -1,13 +1,15 @@
 "use strict"; // treat all JS code in newer version 
 
-let name = "Bhushan"
+let Name = "Bhushan"
 let age = 20
 let isLoggedIn = false
 let temp = null 
 let arr ;
 
 
-console.log(name)
+console.log(Name)
+console.log(typeof(Name))
+console.log(typeof(isLoggedIn))
 console.log(typeof(temp)) // object 
 console.log(typeof(arr)) // undefined 
 // Datatypes in JS 
