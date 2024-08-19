@@ -45,3 +45,14 @@ console.log(boolean)
 // 1 => true 
 //  "" => false
 // "Roshan" => true
+
+// Postfix increment variable++;
+
+let q = 3
+let w = q++
+console.log("q = ",q,"w = ", w, "Postfix increment ")
+// Prefix increment variable++;
+
+let e = 4
+let r = ++e
+console.log("e = ",e,"r = ", r,"Prefix increment")
