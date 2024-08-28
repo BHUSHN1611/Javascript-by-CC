@@ -49,3 +49,27 @@ console.log("Object",typeof obj)
 console.log("Function",typeof myfunn)
 
 // fun fact : Return type of Non-primitive datatype is a Object , function ka bhi functionobject 
+
+// Heap and stack memory allocation
+
+// Primitive datatype uses Stack memory allocation and Non-Primitive Datatypes uses Heap memory allocation
+
+// Stack gives a copy of original and Heap gives original reference value 
+// stack example 
+let rname =  "Bhushan"
+let ogname = rname // Its get a copied of rname var instead of rel reference 
+ogname = "roshan"
+console.log(ogname) // op: roshan , in this we change the value but the rname value dont get affected because we get a copy of the rname .
+
+console.log(rname)// op: Bhushan 
+
+// Heap examples
+let heap = {
+    name:"Bhshan",
+    age : 45
+}
+console.log(heap) // in this we change the value and the change got affected in the main varible 
+let heap2 = heap 
+
+heap.name = "Roshan"
+console.log(heap)
